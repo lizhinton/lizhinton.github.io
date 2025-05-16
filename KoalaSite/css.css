@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20 20px;
+}
+
+.column {
+  flex: 33%;
+  padding: 20 20px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}

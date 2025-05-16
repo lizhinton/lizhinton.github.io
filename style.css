@@ -1,0 +1,392 @@
+/*full page styles*/
+* {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+h2,
+h3 {
+    color: white;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+hr {
+    opacity: 50%;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+
+i {
+    font-size: 30px;
+    color: #dcc3f9;
+    vertical-align: sub;
+}
+
+h2,
+h3,
+p,
+.button,
+table {
+    margin-left: 100px;
+}
+
+h3 {
+    font-size: 30px;
+}
+/*nav bar*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+.button {
+   background-color: #dcc3f9;
+   color: black;
+   border-radius: 25px;
+   padding: 15px 30px;
+   font-weight: bold;
+}
+
+a {
+    margin: 15px;
+}
+
+nav a {
+    margin: 15px;
+    font-weight: 500;
+}
+
+/*intro*/
+
+.intro h2 {
+    font-size: 90px;
+    margin-bottom: 0px;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro p {
+    margin-right: 200px;
+}
+
+.intro img {
+    height: 80%;
+    width: 80%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+}
+
+.intro .left {
+    flex: 60%;
+}
+
+.intro .right {
+    flex: 40%;
+}
+
+/*projects*/
+.projects article{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.projects img {
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.projects .left {
+    flex: 40%;
+}
+
+.projects .right {
+    flex: 60%;
+}
+
+.projects .link2 {
+    margin-left: 20px;
+}
+
+table,
+tr,
+td {
+    padding: 10px;
+}
+
+td,
+th {
+    border-bottom: 2px solid darkgrey;
+}
+
+td .right {
+    text-align: right;
+}
+
+.projects h3 {
+    margin-top: 10px;
+}
+
+.projects a {
+    color: #dcc3f9;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 110%;
+    margin-left: 110px;
+}
+
+/*about me*/
+.aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.aboutMe .left {
+    flex: 60%;
+}
+
+.aboutMe .right {
+    flex: 40%;
+}
+
+.aboutMe a {
+    margin-left: 200px;
+    color: #dcc3f9;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.aboutMe h3,
+.aboutMe p {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/*contact*/
+.connect {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.connect .left {
+    flex: 50%
+}
+
+.connect .right {
+    flex: 50%
+}
+
+.connect p a {
+    text-decoration: underline;
+    margin-left: 0px;
+    text-decoration-color: #dcc3f9;
+}
+
+.link1 {
+    margin-left: 100px;
+}
+
+.input{
+    margin: 20px 0px;
+    border: 2px solid darkgrey;
+    width: 50%;
+}
+
+.message {
+    height: 150px;
+    box-sizing: border-box;
+}
+
+#submitButton {
+    margin-left: 140px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+/*about page*/
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.about .left {
+    flex: 30%;
+}
+
+.about .right {
+    flex: 70%;
+}
+
+.aboutimg {
+    height: 70%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    border-radius: 25px;
+}
+
+.about .resume {
+    margin-left: 100px;
+}
+
+.about p {
+    margin-bottom: 50px;
+    margin-right: 100px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.about h2 {
+    font-size: 60px;
+}
+
+.about h3 {
+    font-size: 30px;
+}
+
+/*skills*/
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.skilldesc {  
+    margin-right: 400px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.bubbles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bubbles p {
+    margin-left: 10px;
+    border: darkgrey solid 1px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.bubbles .firstbubble {
+    margin-left: 100px;
+}
+
+/*interactivity*/
+a:visited {
+    color: #a0cfec;
+}
+
+a.button:visited {
+    color: black;
+    background-color: #a0cfec;
+}
+
+.connect a:visited {
+    color: lightgrey;
+    text-decoration-color: #a0cfec;
+}
+
+/*reactivity*/
+
+/*tablet*/
+@media only screen and (max-width: 992px) {
+    .intro .right {
+        display: none;
+    }
+    
+    .intro .left {
+        flex: 100%;
+    }
+    
+    .projects img {
+        height: 432px;
+        width: 768px;
+    }
+    
+    .skilldesc {
+        margin-right: 200px;
+    }
+    
+    #lastbubble {
+        margin-left: 100px;
+    }
+}
+
+/*phone*/
+@media only screen and (max-width: 600px) {
+    .intro h2 {
+        font-size: 70px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    .projects img {
+        height: 216px;
+        width: 384px;
+    }
+    
+    .projects p {
+        margin-right: 30px;
+    }
+    .aboutMe h3,
+    .aboutMe p {
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 0px;
+        width: 80%;
+    }
+    
+    #access {
+        margin-left: 100px;
+    }
+}

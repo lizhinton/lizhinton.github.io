@@ -1,0 +1,83 @@
+@font-face
+{
+  font-family: fancyHeader;
+  src: url(https://www.1001freefonts.com/great-vibes.font);
+}
+
+img.right
+{
+  float: right;
+}
+
+img.left
+{
+  float: left;
+}
+
+img
+{
+  padding: 40px;
+  background-color: yellowgreen;
+  border: 5px;
+  margin: 10px;
+}
+
+.banner
+{
+  padding: 0px;
+  background-color: #18702f;
+  border: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #115524;
+  padding: 25px;
+  margin: 10px;
+}
+
+h1, h2
+{
+  color: powderblue;
+  font-family: fancyHeader;
+  text-align: center;
+  padding: 50px;
+  margin: 20px;
+}
+
+h1
+{
+  border-style: solid;
+}
+
+body p {
+  font-family: Garamond;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {  display: inline;}
+
+a:link {
+  color: #8ae0ec;
+}
+a:visited {
+  color: #0037fe;
+}
+a:hover {
+  color: #f103c7;
+}
+a:active {
+  color: #8b03c7;
+}
+
+
+#container{
+  background-color: lightgreen;
+  margin: auto;
+  width:90%;
+}
